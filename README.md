@@ -10,7 +10,7 @@ Add "#!/usr/bin/env node" to compiled files!
 
 #### coffee.config.cjs
 
-```
+```js
 const addShebang = require('milkee-plugin-shebang');
 
 module.exports = {
