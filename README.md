@@ -14,7 +14,7 @@ Add "#!/usr/bin/env node" to compiled files!
 const addShebang = require('milkee-plugin-shebang');
 
 module.exports = {
-// ...
+  // ...
   milkee: {
     plugins: [
       addShebang(),
